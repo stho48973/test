@@ -1,0 +1,20 @@
+@charset "UTF 8";
+body{
+  background-color: aqua;
+}
+
+div{
+  width: 100px;
+  height: 100px;
+  background: #3D45CD;
+
+  transition.property: width height;
+  transition-duration: 2s;
+  transition-delay: 1s;
+  transition-timing-function: cubic-bezier(.05,.62,.69,.48)
+}
+
+div:hover{
+  width:300px;
+  height:300px;
+}
